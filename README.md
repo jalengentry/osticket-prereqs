@@ -60,8 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
-  - World Wide Web Services -> Application Development Features -> 
+4.) You will want to install/enable IIS in Windows with CGI and Common HTTP Features.  World Wide Web Services -> Application Development Features -> 
 [X] CGI
 [X] Common HTTP Features
   
@@ -75,9 +74,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-***NOTE*** Make sure all Common HTTP Features are checked.
+Make sure all Common HTTP Features are checked.
  
- To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 
+ To make sure the IIS is installed/enabled go to a browser of your choice and search for 127.0.0.1 
   It should look something like this. 
   
 <p>
@@ -97,7 +96,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
   
-  !! ATTENTION !!
+
 If this appears, choose to “Keep” the file:
   
 <p>
@@ -112,13 +111,7 @@ If this appears, choose to “Keep” the file:
 
 9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe. 
   
-10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-  Run the setup wizard:
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-
-  Make the new root password: Password1
+10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). Typical Setup-> Launch Configuration Wizard (after install)-> Standard Configuration-> New root password: Password1
   
 <p>
 <img src="https://imgur.com/KxcUy7C.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -156,7 +149,7 @@ Register new PHP version.
 <p>
   
 You will want to provide a path to the php executable file (php-cgi.exe)). 
-  Go to C Drive -> PHP -> click on php-cgi file.
+  Go to C Drive-> PHP-> click on php-cgi file.
   
 <p>
 <img src="https://imgur.com/oJZ0gp9.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -170,15 +163,11 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
 </p>
 <p>
   
-13.) Install osTicket v1.15.8
-  -Download osTicket from the Installation Files Folder
-  -Extract and copy "upload" folder to c:\inetpub\wwwroot
-  -Within c:\inetpub\root, Rename "upload" to "osTicket"
+13.) Install osTicket v1.15.8, download osTicket from the Installation Files Folder, extract and copy "upload" folder to c:\inetpub\wwwroot, within c:\inetpub\root, Rename "upload" to "osTicket".
   
   Reload IIS again.
   
-14.) On IIS go to sites -> Default -> osTicket
-  -On the right, click “Browse *:80”
+14.) On IIS go to sites-> Default-> osTicket, on the right, click “Browse *:80”.
   
 <p>
 <img src="https://imgur.com/Yw55d5b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -193,7 +182,7 @@ You will want to provide a path to the php executable file (php-cgi.exe)).
 <p>
   
   To enable the extensions:
-  -Go back to IIS, sites -> Default -> osTicket
+  -Go back to IIS, sites-> Default-> osTicket
   -Double click PHP manager
   -Click "Enable or disable an extension"
   
